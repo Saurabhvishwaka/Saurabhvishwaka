@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+</title>
+<meta charset="viewport" content="width=device-width,initial-scale=1.o">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
+</head>
+<link rel="stylesheet" href="style/style.css">
+<style>
+body
+{
+margin:0px;
+padding:0px;
+background:url('images/bg1.jpg');
+}
+.left
+{
+border:none;
+//border: 2px solid red;
+display:inline-block;
+left:34px;
+top:20px;
+position:absolute;
+}
+.img
+{
+width:133px;
+height:50px;
+//filter: invert(100%);
+}
+.mid
+{
+display:block;
+margin: 29px auto;
+width:36%;
+border:none;
+//border: 2px solid green;
+}
+.right
+{
+display:inline-block;
+//border: 2px solid yellow;
+right:34px;
+top:43px;
+border:none;
+position:absolute;
+}
+.navbar
+{
+display:inline-block;
+}
+.navbar li{
+display:inline-block;
+font-size:15px;
+font-family:baloo bhai,cursive;
+}
+.navbar li a{
+color:white;
+text-decoration:none;
+padding: 10px 10px;
+}
+.navbar li a:hover,navbar li a.active{
+text-decoration:underline;
+color:blue;
+}
+.btn
+{
+margin:0px 9px;
+background-color:black;
+color:white;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius:10px;
+font-size:20px;
+cursor:pointer;
+font-family:baloo bhai,cursive;
+}
+.btn:hover
+{
+background-color:grey;
+}
+.container{
+border:2px solid white;
+margin:106px 80px;
+width:33%;
+padding:75px;
+border-radius:28px;
+}
+.form-group input
+{
+text-align:center;
+display:block;
+padding:1px;
+border: 2px solid black;
+margin: 3px auto;
+font-size:15px;
+width:508px;
+border-radius:8px;
+font-family:baloo bhai,cursive;
+}
+h1
+{
+text-align:center;
+}
+.container button{
+display:block;
+width:508px;
+background-color:black;
+color:white;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+}
+.add
+{
+top:100px;
+border:2px solid white;
+width:100%;
+height:100px;
+float:right;
+margin-right:30px auto;
+border-radius:28px;
+}
+.p{
+text-align:right;
+margin-right:10px;
+color:white;
+font-size:15px;
+font-family:san-serif;
+} 
+.sau
+{
+color:white;
+font-size:20px;
+font-family:san-serif;
+width:200px;
+}
+</style>
+<body>
+<header>
+<div class="left">
+<img src="images/gym.jpg" alt="aman" class="img">
+</div>
+<div class="mid">
+<ul class="navbar">
+<li class="navbar li"><a href="#" class="active">Home</li></a>
+<li class="navbar li"><a href="#">About Us</li></a>
+<li class="navbar li"><a href="#">Fitness Calculator</li></a>
+<li class="navbar li"><a href="#">Contact Us</li></a>
+</ul>
+</div>
+<div class="right">
+<button class="btn">Call us Now</button><button class="btn">Email Us</button>
+</div>
+<div class="container">
+<h1> Join the best gym of Barhi now</h1>
+<form action="noaction.php">
+<div class="form-group">
+<input type="text" name="name" placeholder="Enter your name">
+<input type="number" name="name" placeholder="Enter your Age">
+Gender<input type="radio"  id="sau" >Male<input type="radio" id="sau">Female
+<input type="text" name="name" placeholder="Enter your Locality">
+<button>Submit</botton>
+</form>
+</div>
+</header>
+<footer>
+<address class="add">
+<p class="p">Author:Savrabh Lohar</p>
+<p class="p">Contact NO.:7489170961</p>  
+<p class="p"><a href="slohar.cs@gmail.com" class="p">slohar.cs@gmail.com</a></p>
+</address>
+<footer>
+</body>
+</html>
