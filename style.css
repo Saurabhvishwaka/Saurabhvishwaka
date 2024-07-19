@@ -1,81 +1,124 @@
-*{
-margin:0;
-padding:0;
-
-}
-body
+/* CSS Reset*/
+*
 {
-background-color:#548587;
-text-align: center;
+margin:0px;
+padding: 0px;
 }
-.container
+#navbar
 {
-height:70vh;
 display:flex;
-justify-content:center;
-align-item:center;
+align-text:center
 }
-.game
+#logo
 {
-height:60vh;
-width:60vh;
+margin:34px 45px;
+}
+#logo img
+{
+height:60px;
+width:50px;
+border-radius:20px;
+}
+#navbar
+{
+position:relative;
+}
+#navbar ul
+{
 display:flex;
-flex-wrap:wrap;
-justify-content:center;
-align-item:center;
-gap:1.5vmin;
 }
-.box
+#navbar::before
 {
-height:18vmin;
-width:18vmin;
-border-radius:1rem;
-border:none;
-box-shadow: 0 0 1rem rgba(0,0,0,0.1);
-font-size:8vmin;
-color: #b0413e;
-background-color:#fffc7;
+content:"";
+background-color:black;
+position:absolute;
+height:100%;
+width:100%;
+z-index:-1;
+opacity:0.4;
 }
-#reset-btn
+#navbar ul li
 {
-padding: 1rem;
-font-size:1.25rem;
-background-color: #191913;
-color:#fff;
-border-radius: 1rem;
-border:none;
+color:white;
+list-style:none;
+font-size:1.5rem;
 }
-#new-btn{
-padding: 1rem;
-font-size:1.25rem;
-background-color: #191913;
-color:#fff;
-border-radius: 1rem;
-border:none;
-}
-#msg
+#navbar ul li a
 {
-color:#fffc7;
-font-size:5vmin;
+display: block;
+padding: 3px 15px;
+border-radius:20px;
+text-decoration:none;
 }
-.msg-container
+#navbar ul li a:hover
 {
-height:100vmin;
+color:black;
+background-color:white;
+}
+#home
+{
 display:flex;
-justfy-content:center;
-align-items:center;
 flex-direction:column;
-gap:2rem;
+padding: 3px 200px;
+align-items:center;
+justify-content:center;
+height:160px;
 }
-.hide
+#home::before
 {
-display:none;
+content:"";
+background:url("../images/fd.jpg");
+position:absolute;
+height:100%;
+width:100%;
+z-index:-1;
+margin-top:200px;
+opacity:0.89;
 }
-
-
-
-
-
+#home h1
+{
+//color:white;
+text-align:center;
+font-size:1.5rem;
+font-family:'baloo bhai' cursive;
+}
+/*services section*/
+#services
+{
+margin:34px;
+display:flex;
+}
+#services .box
+{
+border:2px solid brown;
+}
+#services .box img
+{
+height:100px;
+margin:auto;
+display:block;
+}
+.primary
+{
+font-size:2rem
+padding:12px;
+}
+.h-secondery;
+{
+font-size:2rem
+padding:12px;
+}
+.btn
+{
+padding:6px 20px;
+border: 2px solid white;
+background-color:brown;
+color:white;
+margin:17px;
+font-size:1.5rem;
+border-radius:10px;
+cursor:pointer;
+}
 
 
 
